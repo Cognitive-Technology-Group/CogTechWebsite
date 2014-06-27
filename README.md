@@ -20,4 +20,8 @@ CogTechWebsite
 * Incubator for "future projects":
 	* Where we put google docs and ideas for projects that we have discussed but haven't started building yet. 
 
- 
+## Development Notes
+Branches for now: 
+* online - the current live version of the site, synced with the server
+* develop 
+* master 
