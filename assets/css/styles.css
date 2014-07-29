@@ -17,6 +17,18 @@ body {
 
 #home-text {
     font-size: 20px;
+    float: left;
+    margin-right: 15px;
+}
+
+#inner-text {
+    font-size: 20px;
+
+}
+
+#right-side-photo {
+    float: right;
+    width: 250px;
 }
 
 #divider {
