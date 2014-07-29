@@ -17,8 +17,7 @@ body {
 
 #home-text {
     font-size: 20px;
-    float: left;
-    margin-right: 15px;
+    padding-right: 10px;
 }
 
 #inner-text {
@@ -28,7 +27,9 @@ body {
 
 #right-side-photo {
     float: right;
-    width: 250px;
+    width="45%";
+    height="45%";
+    padding-left: 18px;
 }
 
 #divider {
