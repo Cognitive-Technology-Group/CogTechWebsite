@@ -1,49 +1,53 @@
+/* New color Palette
+http://adobe.ly/1xDVAwI
+
+Dark Blue/Purple:#313540;
+Yellow: #FABA2D;
+Red: #E9405A;
+Blue: #00ABEA;
+White: #F7F7F7;
+*/
 body {
-  min-height: 2000px;
-  padding-top: 70px;
+    min-height: 2000px;
+    padding-top: 70px;
+    background: #313540;
+}
+a{
+    color: #00ABEA;
+}
+a:hover{
+    color: #009fd9;
 }
 #homepage-title {
     font-size: 60px;
 }
-
 #nav {
-    background-color: #012530;
+    background-color: #313540;
+    border-bottom: 1px solid #6c758d;
 }
-
-#header2 {
-    font-size: 40px;
+#nav a {
+    color: #7e869c;
 }
-
-
+#nav .active a {
+    background-color: #474d5d;
+    color: #F7F7F7;
+}
+#nav li:hover a {
+    color: #00ABEA;
+}
 #home-text {
     font-size: 20px;
-    padding-right: 10px;
 }
-
-#inner-text {
-    font-size: 20px;
-
-}
-
-#right-side-photo {
-    float: right;
-    width="45%";
-    height="45%";
-    padding-left: 18px;
-}
-
 #divider {
     height: 5px;
-    background-color: #ACBD86;
+    background-color: #FABA2D;
     z-index: 9999;
     border-radius: 6px;
     margin-bottom: 5px;
 }
-
-#divider2 {
-    height: 1px;
-    background-color: #ACBD86;
-    z-index: 9999;
-    border-radius: 6px;
-    margin-bottom: 5px;
+.btn-danger{
+    background: #E9405A;
+}
+.btn-danger:hover{
+    background:#e7314d;
 }
